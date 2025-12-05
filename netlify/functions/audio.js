@@ -1,5 +1,5 @@
 export const handler = async (event) => {
-    const API_KEY = process.env.API_KEY; // La clé est cachée ici
+    const API_KEY = process.env.API_KEY; 
 
     const { text } = JSON.parse(event.body);
 
